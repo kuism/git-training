@@ -22,6 +22,8 @@ type T struct {
 }
 gofmt will line up the columns:
 
+
+// Add 3rd commit
 type T struct {
     name    string // name of the object
     value   int    // its value
