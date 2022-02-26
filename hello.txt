@@ -95,6 +95,7 @@ $
 Go's declaration syntax allows grouping of declarations. A single doc comment can introduce a group of related constants or variables. Since the whole declaration is presented, such a comment can often be perfunctory.
 
 // Error codes returned by failures to parse an expression.
+// Nijesh KU
 var (
     ErrInternal      = errors.New("regexp: internal error")
     ErrUnmatchedLpar = errors.New("regexp: unmatched '('")
